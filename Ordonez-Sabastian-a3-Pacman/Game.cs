@@ -17,7 +17,10 @@ namespace Game10003
         ///     Setup runs once before the game loop begins.
         public void Setup()
         {
-
+            Window.SetSize(600, 800);
+            Window.ClearBackground(Color.Black);
+            Map gameMap;
+            
         }
 
 
@@ -25,6 +28,7 @@ namespace Game10003
         ///     Update runs every frame.
         public void Update()
         {
+            
 
         }
     }
